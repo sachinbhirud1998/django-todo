@@ -13,6 +13,7 @@ EXPOSE 8000
 # Run migrations (optional, if needed)
 RUN python manage.py migrate
 
-# Command to run your application
+# Command to run your application.
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+
 
